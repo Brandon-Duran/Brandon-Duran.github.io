@@ -1,1 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandon Duran | IT Support Engineer</title>
+  <meta name="description" content="Brandon Duran, IT Support Engineer at Amazon in Jacksonville, FL. Network infrastructure, end-of-life hardware refreshes, device provisioning, and IT disaster response." />
+  <meta name="author" content="Brandon Duran" />
+  <meta name="theme-color" content="#07070d" />
+  <link rel="canonical" href="https://brandonduran.dev/" />
 
+  <!-- Open Graph / social previews -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://brandonduran.dev/" />
+  <meta property="og:title" content="Brandon Duran | IT Support Engineer" />
+  <meta property="og:description" content="IT Support Engineer at Amazon keeping networks, devices, and teams online. Based in Jacksonville, FL." />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Brandon Duran | IT Support Engineer" />
+  <meta name="twitter:description" content="IT Support Engineer at Amazon keeping networks, devices, and teams online. Based in Jacksonville, FL." />
+
+  <!-- Inline SVG favicon with "BD" -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237c5cff'/%3E%3Cstop offset='1' stop-color='%2300e0ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-weight='800' font-size='28' fill='white'%3EBD%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="nav-inner container">
+      <a href="#hero" class="logo" aria-label="Brandon Duran, back to top"><span class="logo-mark">BD</span><span class="logo-text">brandonduran<span class="accent">.dev</span></span></a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-menu" class="nav-menu" aria-label="Primary">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#impact" class="nav-link">Impact</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="https://github.com/Brandon-Duran" class="nav-icon" target="_blank" rel="noopener" aria-label="GitHub profile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.7 1.7.3 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg><span class="nav-icon-label">GitHub</span></a></li>
+          <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section id="hero" class="hero container" aria-labelledby="hero-title">
+      <p class="eyebrow reveal">
+        <svg class="pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+        Based in Jacksonville, FL
+      </p>
+      <h1 id="hero-title" class="hero-title reveal">
+        Hi, I'm <span class="gradient-text">Brandon Duran</span>
+      </h1>
+      <!-- Keep the sr-only sentence in sync with the roles list in script.js -->
+      <p class="hero-role reveal">
+        <span class="sr-only">IT Support Engineer at Amazon, focused on network infrastructure, leading hardware refreshes, and volunteering in IT disaster response.</span>
+        <span aria-hidden="true"><span class="mono">&gt;</span> <span id="typed" class="typed">IT Support Engineer @ Amazon</span><span class="caret"></span></span>
+      </p>
+      <p class="hero-sub reveal">
+        IT Support Engineer at Amazon keeping networks, devices, and teams online. Based in Jacksonville, FL.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#impact" class="btn btn-primary">View my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll to About section"><span></span></a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section container" aria-labelledby="about-title">
+      <h2 id="about-title" class="section-title reveal"><span class="num">01.</span> About me</h2>
+      <div class="about-grid">
+        <div class="glass about-text reveal">
+          <p>I'm an <strong>IT Support Engineer at Amazon</strong> in Jacksonville, Florida, where I keep network infrastructure and end-user devices running in a high-volume warehouse environment. I've been with Amazon since January 2020, starting as an IT intern, and I <strong>rebuilt the JAX2 warehouse IT stack end to end</strong>, from Cisco switching and fiber to every workstation on the floor.</p>
+          <p>Before IT, I spent eight years in restaurants, and <strong>12+ years of customer service</strong> shaped how I approach support: listen first, fix it right, and document it so the next person can pick it up. I bring <strong>customer obsession, ownership, and high standards</strong> to every ticket, refresh, and rollout.</p>
+          <p>Outside of work, I volunteer with the Information Technology Disaster Resource Center (ITDRC), helping deploy IT infrastructure and keep critical communications running when communities are hit by disasters.</p>
+          <ul class="about-facts">
+            <li><span class="mono accent">location</span> Jacksonville, FL</li>
+            <li><span class="mono accent">company</span> Amazon</li>
+            <li><span class="mono accent">languages</span> English, Spanish (limited working)</li>
+            <li><span class="mono accent">studying</span> Western Governors University</li>
+          </ul>
+        </div>
+        <div class="about-avatar reveal">
+          <div class="avatar">
+            <img src="assets/profile.jpg" alt="Portrait of Brandon Duran" width="100" height="100" loading="lazy" decoding="async" />
+          </div>
+          <div class="stats">
+            <div class="glass stat"><strong data-count="6" data-suffix="+">6+</strong><span>Years at Amazon</span></div>
+            <div class="glass stat"><strong data-count="12" data-suffix="+">12+</strong><span>Years in customer service</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section container" aria-labelledby="skills-title">
+      <h2 id="skills-title" class="section-title reveal"><span class="num">02.</span> Skills &amp; tools</h2>
+      <div class="skills-grid">
+        <div class="glass skill-group reveal">
+          <h3>Infrastructure &amp; Networking</h3>
+          <ul class="chips">
+            <li>Cisco switching</li><li>MDF/IDF</li><li>Fiber &amp; SFPs</li><li>Access points</li><li>Cable management</li><li>Network troubleshooting</li>
+          </ul>
+        </div>
+        <div class="glass skill-group reveal">
+          <h3>Support &amp; Endpoint</h3>
+          <ul class="chips">
+            <li>Technical support</li><li>Hardware refresh &amp; EOL</li><li>Device provisioning</li><li>Thin clients</li><li>Zebra printers</li><li>Documentation</li>
+          </ul>
+        </div>
+        <div class="glass skill-group reveal">
+          <h3>Emergency Management</h3>
+          <ul class="chips">
+            <li>Incident Command (ICS)</li><li>NIMS</li><li>Disaster response</li><li>Crisis management</li><li>Workplace safety</li>
+          </ul>
+        </div>
+        <div class="glass skill-group reveal">
+          <h3>Cloud &amp; Tools</h3>
+          <ul class="chips">
+            <li>AWS</li><li>PowerShell</li>
+          </ul>
+        </div>
+        <div class="glass skill-group reveal">
+          <h3>Soft Skills</h3>
+          <ul class="chips">
+            <li>Customer obsession</li><li>Training &amp; mentoring</li><li>Teamwork</li><li>Leadership</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ IMPACT ============ -->
+    <section id="impact" class="section container" aria-labelledby="impact-title">
+      <h2 id="impact-title" class="section-title reveal"><span class="num">03.</span> Impact</h2>
+      <ul class="impact-stats">
+        <li class="glass impact-stat reveal"><strong data-count="500" data-suffix="+">500+</strong><span>Cisco switches replaced</span><small>MDF, IDF, fiber, SFPs, and APs</small></li>
+        <li class="glass impact-stat reveal"><strong data-count="1000" data-suffix="+">1,000+</strong><span>Thin clients provisioned</span></li>
+        <li class="glass impact-stat reveal"><strong data-count="800" data-suffix="+">800+</strong><span>Laptops deployed</span></li>
+        <li class="glass impact-stat reveal"><strong data-count="700" data-suffix="+">700+</strong><span>Stations cable-managed</span></li>
+      </ul>
+      <article class="glass project featured reveal">
+        <div class="project-thumb thumb-1" aria-hidden="true">
+          <svg class="thumb-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <rect x="6" y="14" width="52" height="12" rx="3"/><rect x="6" y="30" width="52" height="12" rx="3"/>
+            <g class="ports"><circle cx="14" cy="20" r="2"/><circle cx="21" cy="20" r="2"/><circle cx="28" cy="20" r="2"/><circle cx="35" cy="20" r="2"/><circle cx="14" cy="36" r="2"/><circle cx="21" cy="36" r="2"/><circle cx="28" cy="36" r="2"/><circle cx="35" cy="36" r="2"/></g>
+            <path d="M48 20h4M48 36h4M32 42v8M20 50h24"/>
+          </svg>
+        </div>
+        <div class="project-body">
+          <span class="mono date">Featured project · Amazon JAX2</span>
+          <h3>Amazon JAX2 Infrastructure Refresh</h3>
+          <p>I led the end-of-life refresh of the JAX2 warehouse's IT stack, replacing aging commodity network gear with enterprise Cisco hardware from the core out. That meant swapping 500+ switches across the MDF and IDF closets, along with fiber, SFPs, and access points.</p>
+          <p>On the endpoint side, I provisioned 1,000+ thin clients, deployed 800+ laptops, and cable-managed 700+ stations, all while keeping a high-volume operation running.</p>
+          <ul class="tags"><li>Cisco</li><li>MDF/IDF</li><li>Fiber &amp; SFPs</li><li>Access points</li><li>Thin clients</li><li>EOL refresh</li></ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="section container" aria-labelledby="experience-title">
+      <h2 id="experience-title" class="section-title reveal"><span class="num">04.</span> Experience</h2>
+      <ol class="timeline">
+        <li class="timeline-item reveal">
+          <div class="glass timeline-card">
+            <span class="mono date">Sep 2026 – Present</span> <span class="badge">Volunteer</span>
+            <h3>IT Disaster Response Volunteer <span class="at">@ Information Technology Disaster Resource Center (ITDRC)</span></h3>
+            <ul class="bullets">
+              <li>Deploy IT infrastructure and maintain critical communications for communities during crises.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <div class="glass timeline-card">
+            <span class="mono date">Jul 2025 – Present</span>
+            <h3>IT Support Engineer I <span class="at">@ Amazon</span></h3>
+            <ul class="bullets">
+              <li>Support network infrastructure and end-user devices in a high-volume operational environment.</li>
+              <li>Maintain and troubleshoot switches, access points, and cabling.</li>
+              <li>Run end-of-life hardware refreshes and device provisioning.</li>
+              <li>Work independently through a high ticket volume.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <div class="glass timeline-card">
+            <span class="mono date">Aug 2020 – Jul 2025 · Jacksonville, FL</span>
+            <h3>IT Support Associate II <span class="at">@ Amazon</span></h3>
+            <ul class="bullets">
+              <li>Led the JAX2 end-of-life refresh, replacing 500+ switches with Cisco hardware.</li>
+              <li>Provisioned 1,000+ thin clients and 800+ laptops, and cable-managed 700+ stations.</li>
+              <li>Diagnosed end-user issues and documented every fix thoroughly.</li>
+              <li>Triaged and escalated outages to restore service quickly.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <div class="glass timeline-card">
+            <span class="mono date">Jan 2020 – Jul 2020</span>
+            <h3>IT Support Associate Intern <span class="at">@ Amazon</span></h3>
+            <ul class="bullets">
+              <li>Repaired and replaced hardware across the site.</li>
+              <li>Deployed and maintained PCs, printers, scanners, radios, and tablets.</li>
+              <li>Supported Zebra thermal printers, thin clients, and handheld terminals.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <div class="glass timeline-card">
+            <span class="mono date">May 2012 – Apr 2020</span>
+            <h3>Waiter <span class="at">@ Don Juan's Mexican Restaurant</span></h3>
+            <ul class="bullets">
+              <li>Trained and mentored new hires in a high-volume restaurant.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ CERTIFICATIONS & AWARDS ============ -->
+    <section id="certifications" class="section container" aria-labelledby="certs-title">
+      <h2 id="certs-title" class="section-title reveal"><span class="num">05.</span> Certifications &amp; awards</h2>
+      <div class="certs-grid">
+        <article class="glass cert reveal">
+          <span class="issuer issuer-comptia" aria-hidden="true">A+</span>
+          <div>
+            <h3>CompTIA A+ ce</h3>
+            <p class="cert-meta">CompTIA · Issued May 2024 · Expires May 2027</p>
+            <a class="cert-link" href="https://www.credly.com/badges/a32548db-ec30-42be-a22b-bbe7aff00dcb" target="_blank" rel="noopener">Verify on Credly <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="glass cert reveal">
+          <span class="issuer issuer-aws" aria-hidden="true">AWS</span>
+          <div>
+            <h3>AWS Cloud Quest: Cloud Practitioner</h3>
+            <p class="cert-meta">Amazon Web Services · Issued Apr 2023</p>
+            <a class="cert-link" href="https://www.credly.com/badges/8c877510-4998-41df-a1a3-ceffa6cdcb7e" target="_blank" rel="noopener">Verify on Credly <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="glass cert reveal">
+          <span class="issuer issuer-osha" aria-hidden="true">OSHA</span>
+          <div>
+            <h3>OSHA</h3>
+            <p class="cert-meta">Amazon · Issued Jun 2021</p>
+          </div>
+        </article>
+        <article class="glass cert cert-wide reveal">
+          <span class="issuer issuer-fema" aria-hidden="true">FEMA</span>
+          <div>
+            <h3>IS-100.c: Introduction to the Incident Command System</h3>
+            <p class="cert-meta">FEMA · Issued Sep 2026</p>
+          </div>
+        </article>
+        <article class="glass cert cert-wide reveal">
+          <span class="issuer issuer-fema" aria-hidden="true">FEMA</span>
+          <div>
+            <h3>IS-700.b: An Introduction to the National Incident Management System</h3>
+            <p class="cert-meta">FEMA · Issued Sep 2026</p>
+          </div>
+        </article>
+        <article class="glass cert cert-full reveal">
+          <span class="issuer issuer-li" aria-hidden="true">in</span>
+          <div>
+            <h3>LinkedIn Learning</h3>
+            <ul class="cert-list">
+              <li>Learning PowerShell <span>Apr 2022</span></li>
+              <li>IT Security Careers and Certifications: First Steps <span>Apr 2022</span></li>
+              <li>Insights from a Cybersecurity Professional <span>Apr 2022</span></li>
+              <li>Leadership: Practical Skills <span>Jul 2023</span></li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="sub-title reveal">Awards</h3>
+      <div class="awards-grid">
+        <article class="glass cert award reveal">
+          <span class="issuer issuer-award" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 3h10v2h3v3a4 4 0 0 1-4 4h-.3A5 5 0 0 1 13 14.9V18h3v3H8v-3h3v-3.1A5 5 0 0 1 8.3 12H8a4 4 0 0 1-4-4V5h3V3zm0 4H6v1a2 2 0 0 0 1 1.7V7zm10 0v2.7A2 2 0 0 0 18 8V7h-1z"/></svg></span>
+          <div>
+            <h3>Certificate of Achievement &amp; SE Region Metal Coin</h3>
+            <p class="cert-meta">Amazon · May 2022</p>
+            <p class="cert-desc">Recognized for going above and beyond to embody the Nail the Plan pillar.</p>
+          </div>
+        </article>
+        <article class="glass cert award reveal">
+          <span class="issuer issuer-award" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.6 1.5 6.8L12 17l-6.1 3.4 1.5-6.8L2.2 9l6.9-.7L12 2z"/></svg></span>
+          <div>
+            <h3>Perfect Attendance</h3>
+            <p class="cert-meta">Year Up · Oct 2019</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section container contact" aria-labelledby="contact-title">
+      <div class="glass contact-card reveal">
+        <h2 id="contact-title" class="section-title center"><span class="num">06.</span> Let's connect</h2>
+        <p>Whether it's an infrastructure project, a role, or disaster response work, I'm always happy to talk.</p>
+        <a class="btn btn-primary btn-lg" href="mailto:Brandond268@gmail.com">Brandond268@gmail.com</a>
+        <ul class="socials" aria-label="Social links">
+          <li><a href="https://www.linkedin.com/in/brandonduran268/" target="_blank" rel="noopener" aria-label="LinkedIn profile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.5V9h3.6v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg></a></li>
+          <li><a href="mailto:Brandond268@gmail.com" aria-label="Send an email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4 7v10h16V7l-8 5.2zM5.3 7l6.7 4.3L18.7 7H5.3z"/></svg></a></li>
+          <li><a href="https://github.com/Brandon-Duran" target="_blank" rel="noopener" aria-label="GitHub profile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.7 1.7.3 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© <span id="year">2026</span> Brandon Duran · Jacksonville, FL</p>
+    <p class="footer-links"><a href="https://github.com/Brandon-Duran" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/brandonduran268/" target="_blank" rel="noopener">LinkedIn</a> · <a href="mailto:Brandond268@gmail.com">Email</a></p>
+  </footer>
+</body>
+</html>
